@@ -3,12 +3,12 @@
 #include <stdlib.h>
 
 /**
- * creating_array - function that creates an array of chars
- * @c: the character
+ * create_array - function that creates an array of chars
+ * @c: character
  * @size: the size of memory to print
  * Return: NULL if 0 or fail else return ptr
  */
-char *creating_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *s;
 	unsigned int r;
