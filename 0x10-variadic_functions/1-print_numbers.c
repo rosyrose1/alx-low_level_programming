@@ -14,7 +14,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list roll;
 
-	unsigned int x;
+	unsigned int m;
 
 	va_start(roll, n);
 
@@ -26,6 +26,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			printf("%s", separator);
 	}
 	printf("\n");
-	va_end(param_list);
+	va_end(roll);
 }
 
