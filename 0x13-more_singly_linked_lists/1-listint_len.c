@@ -5,9 +5,9 @@
 
 /**
  * listint_len - Entry point
- * Description: Function that returns number of elements in linked listint_t list
- * @h: Pointer to the head of list
- * Return: Length of list
+ * Description: Returns number of elements in linked listint_t list
+ * @h: Pointer to the head of a list
+ * Return: Length of a list
  */
 
 size_t listint_len(const listint_t *h)
