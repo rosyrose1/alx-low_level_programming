@@ -1,20 +1,22 @@
-#include "main.h"
 #include <stdio.h>
-
+#include "main.h"
 /**
- * get_bit - A function that returns the value of a bit at a given index.
- * @n: The number to scan.
- * @index: The bit to return.
+ * set_bit - function that sets the value of a bit to 1 at a given index.
+ * @n: pointer to a number
+ * @index:
  *
- * Return: Bit (0 | 1)
+ * Return: 1 (Sucess) else -1
  */
-int get_bit(unsigned long int n, unsigned int index)
+int set_bit(unsigned long int *n, unsigned int index)
 {
-	int bit;
-
-	bit = ((n >> index) & 1);
 	if (index > 64)
 		return (-1);
-	return (bit);
+	if (!((*n >> index) & 1))
+	{
+		*n += 1 << index;
+		return (1);
+	}
+	return (-1);
 }
+
 
