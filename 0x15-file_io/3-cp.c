@@ -10,9 +10,9 @@
 static ssize_t read_file(char *file, char **buf, int fd);
 static void write_copy(char *file, int fd, char *buf, int len);
 /**
- * main: program that copies the content of one file into another
- * @ac: the argument count.
- * @av: the argument values.
+ * main - This program copies the content of one file into another
+ * @ac: argument count.
+ * @av: argoument values.
  *
  * Return: 0 (SUCCESS)
  */

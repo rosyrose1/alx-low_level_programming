@@ -1,1 +1,0 @@
-file input ana output
