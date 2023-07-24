@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int _putchar(char c);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 char *_strcat(char *dest, char *src);
@@ -23,7 +24,7 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
-int _putchar(char c);
+
 
 #endif /* MAIN_H */
 
