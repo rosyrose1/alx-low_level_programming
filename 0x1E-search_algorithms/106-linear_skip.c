@@ -1,10 +1,11 @@
-i#include "search_algos.h"
+#include "search_algos.h"
 
 /**
- * linear_skip - searches for the value in a skip list
- * @list: the input list
- * @value: the value to search for
- * Return:the index number
+ * linear_skip - searches for a value in a skip list
+ *
+ * @list: input list
+ * @value: value to search in
+ * Return: index of the number
  */
 skiplist_t *linear_skip(skiplist_t *list, int value)
 {
